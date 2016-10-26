@@ -1,0 +1,81 @@
+body{
+    width: 960px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    background-color: white;
+    text-align: right;
+    color: teal;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+li a{
+    text-decoration: none;
+    color: teal;
+}
+li a:hover{
+    color: deepskyblue;
+}
+.image{
+    height: 360px;
+    text-align: right;
+    margin-top: 0px;
+    line-height: 360px;
+    font-size: 36px;
+    color: white;
+    z-index: -1;
+    position: absolute;
+    clear: both;
+}
+.image h1{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+.side{
+    margin-top: 500px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.side img{
+    width: 300px;
+    margin-top: 150px;
+}
+.side p{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.Main{
+    margin-top: 500px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}    
+.Main img{
+    width: 300px;
+    margin-top: 150px;
+}
+.Main p{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.footer{
+    margin-top: 1200px;
+    background-color: teal;
+}
+.footer ul{
+    text-align: center;
+}
+.footer ul img{
+    width: 42px;
+    height: 42px;
+}
